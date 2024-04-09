@@ -1,7 +1,7 @@
 // TikTokIcon.js
 import React from "react";
 
-const TikTokIcon = ({ color = "#fff" }) => {
+const TikTokIcon = ({ color = "#000" }) => {
   return (
     <svg
       fill={color}

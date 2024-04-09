@@ -84,7 +84,7 @@ const Footer: React.FC = () => {
                     href="https://www.tiktok.com/@sobaked_dbn1"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-gray-400 transition duration-200"
+                    className="hover:text-gray-400 transition duration-200 "
                   >
                     <TikTokIcon />
                   </a>
