@@ -19,10 +19,11 @@ export default async function Hero() {
       <div className="mb-8 flex flex-wrap justify-between md:mb-16">
         <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
           <h1 className="mb-4 text-4xl font-bold text-black sm:text-5xl md:mb-8 md:text-6xl bg-gradient-to-r from-green-500 to-green-700 rounded-lg shadow-lg p-6 transition-all duration-1000 ease-in-out animate-gradient">
-            SoBaked
+            So <span className="">Baked </span>
           </h1>
-          <p className="max-w-md leading-relaxed text-gray-500 xl:text-lg bg-gradient-to-r from-green-500 to-green-700 rounded-lg shadow-lg p-6 transition-all duration-1000 ease-in-out animate-gradient">
-            Organic CBD Dispensary
+          <p className="max-w-md leading-relaxed text-black-500 xl:text-lg bg-gradient-to-r from-green-500 to-green-700 rounded-lg shadow-lg p-6 transition-all duration-1000 ease-in-out animate-gradient">
+            So Baked was established in 2019. We are a family run business,
+            meaning each item is handmade and crafted with love and passion
           </p>
         </div>
 
@@ -64,12 +65,6 @@ export default async function Hero() {
             className="flex w-1/3 items-center justify-center text-gray-500 transition duration-100 hover:bg-green-500 active:bg-green-700"
           >
             Medication
-          </Link>
-          <Link
-            href="/Sweets"
-            className="flex w-1/3 items-center justify-center text-gray-500 transition duration-100 hover:bg-green-500 active:bg-green-700"
-          >
-            Sweets
           </Link>
         </div>
       </div>

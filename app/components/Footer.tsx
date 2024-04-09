@@ -1,16 +1,25 @@
 import React from "react";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import TikTokIcon from "../../components/ui/TikTok";
+import Image from "next/image";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8">
+    <footer className="bg-white-200 text-gray-800 py-8">
       <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
         <div className="flex flex-wrap justify-between">
           <div className="mb-4 w-full sm:w-1/2 lg:w-1/4">
             <h2 className="text-xl font-bold mb-2 text-lg font-semibold text-primary">
               So Baked CBD Dispensary
             </h2>
+            <Image
+              src="/sobaked.jpg"
+              alt="Great Photo"
+              className="object-cover object-center"
+              width={100}
+              height={50}
+              priority
+            />
             <ul className="list-none">
               <li>
                 <a
@@ -36,14 +45,14 @@ const Footer: React.FC = () => {
                   Medication
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="/Sweets"
                   className="hover:text-gray-400 transition duration-200"
                 >
                   Sweets
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -95,6 +104,32 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
+        <div className="flex flex-wrap justify-between">
+          <div className="w-full sm:w-1/2 lg:w-1/3">
+            <a
+              href="Address1"
+              className="hover:text-gray-400 transition duration-200"
+            >
+              Address 1
+            </a>
+          </div>
+          <div className="w-full sm:w-1/2 lg:w-1/3">
+            <a
+              href="Address2"
+              className="hover:text-gray-400 transition duration-200"
+            >
+              Address 2
+            </a>
+          </div>
+          <div className="w-full sm:w-1/2 lg:w-1/3">
+            <a
+              href="Address3"
+              className="hover:text-gray-400 transition duration-200"
+            >
+              Address 3
+            </a>
+          </div>
+        </div>
         <div className="mt-8 border-t border-gray-600 pt-4">
           <a
             href="https://ve3z.co.za/"
