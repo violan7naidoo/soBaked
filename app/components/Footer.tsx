@@ -106,28 +106,34 @@ const Footer: React.FC = () => {
 
         <div className="flex flex-wrap justify-between">
           <div className="w-full sm:w-1/2 lg:w-1/3">
-            <a
-              href="Address1"
-              className="hover:text-gray-400 transition duration-200"
-            >
-              Address 1
-            </a>
+            <h2 className="text-lg font-semibold">Location</h2>
+            <p>
+              Shop1, Yudisa Center <br />
+              59 Manor Drive <br />
+              Stanger Manor <br />
+              Kwadukuza <br />
+              4449
+            </p>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/3">
-            <a
-              href="Address2"
-              className="hover:text-gray-400 transition duration-200"
-            >
-              Address 2
-            </a>
+            <h2 className="text-lg font-semibold">Location</h2>
+            <p>
+              Shop1, Chatsworth Main <br />
+              12 Tranquil Street <br />
+              Croftdene <br />
+              Chatsworth <br />
+              4092
+            </p>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/3">
-            <a
-              href="Address3"
-              className="hover:text-gray-400 transition duration-200"
-            >
-              Address 3
-            </a>
+            <h2 className="text-lg font-semibold">Location</h2>
+            <p>
+              Shop1, Rocket Towers <br />
+              290 Lenny Naidu Drive <br />
+              Bayview <br />
+              Chatsworth <br />
+              4092
+            </p>
           </div>
         </div>
         <div className="mt-8 border-t border-gray-600 pt-4">
